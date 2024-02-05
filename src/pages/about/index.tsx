@@ -1,11 +1,8 @@
 import React from "react";
+import { Layout } from "../../components/layout";
 
 const About: React.FC = () => {
-  return (
-    <div>
-      <div>About</div>
-    </div>
-  );
+  return <Layout MainContent={<>About</>} />;
 };
 
 export default About;
