@@ -4,8 +4,8 @@ module.exports = {
   // inject: false,
   // extract: true,
   plugins: {
-    'postcss-import': {},
-    'tailwindcss': {},
-    'autoprefixer': {},
+    "postcss-import": {},
+    tailwindcss: {},
+    autoprefixer: {},
   },
 };
